@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+			<title>Collection</title><link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,700,600italic' rel='stylesheet' type='text/css'>
+
+<!--
+<link rel="stylesheet" href="jquery-ui.min.css">
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.min.js"></script>-->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+		
+	</head>
+	<body bgcolor="gray">
+
+<div class="container" style="z-index: 300; position: relative">
+	<p><element id="intro"><em>A Collection of </em></element><br><span id="change"><a href="Collection.html">Labels</span></p> 
+
+<script>
+
+
+$( window ).scroll(function() {
+  $("#change").css( "display", "absolute" ).fadeOut( "slow" );
+}); 
+
+
+var id = $("#change");
+$(window).scroll(function(){
+   if($(window).scrollTop()<10){
+         divs.stop(true).fadeIn( "slow" );
+   } else {
+         divs.stop(true).fadeOut( "slow" );
+   }
+});
+
+
+$(window).scroll(function() {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollTop < 100) {
+            $("#change").addClass('active').stop(true, true).fadeIn();
+      }
+      else {
+            
+            $("change").removeClass('active').stop(true, true).fadeOut();
+      }
+});
+
+
+
+</script>
+
+<img span="z-index: 32; left: 0px; position: absolute; top: 200px" class="hvr-grow" alt="bottom image" src="frame1.png" id="frameone"></span></div>
+
+<div style="z-index: 250; left: 372px; position: absolute; top: 100px" class="hvr-grow">
+<img alt="top image" src="frame2.png"></div>
+
+
+<div style="z-index: 500; left: 142px; position: absolute; top: 100px" class="hvr-grow">
+<img alt="top image" src="frame3.png"></div><br><br>
+<br>
+<p>
+<element id="amp"><em>& </em></element><span id="changed"><a href="Collectionalphabet.html">Letters</a></span></p>
+
+
+<script>
+
+
+$( window ).scroll(function() {
+  $("#changed").css( "display", "absolute" ).fadeIn( "slow" );
+});
+
+
+var divs = $("#changed");
+$(window).scroll(function(){
+   if($(window).scrollTop()<10){
+         divs.stop(true,true).fadeOut( "slow" );
+   } else {
+         divs.stop(true,true).fadeIn( "slow" );
+   }
+});
+
+
+
+</script>
+
+
+
+	</body>
+</html>

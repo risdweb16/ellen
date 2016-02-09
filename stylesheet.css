@@ -1,0 +1,50 @@
+body {
+  background: red; 
+  background: -webkit-linear-gradient(left,rgba(255,0,0,1),rgba(255,0,0,0)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(255,0,0,1),rgba(255,0,0,0)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(255,0,0,1),rgba(255,0,0,0)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,0)); /*Standard*/
+}
+
+h1 {font-family: "Cardo", serif; font-size: 5em; color: white; margin-left: 10%; margin-top: .5%; position: fixed; opacity: .5; z-index: 10;}
+
+h2 {font-family: 'Cardo', serif; font-weight: bold; font-size: 1.6em; color: black; margin-left: 27%; margin-top: 6%; z-index: 20;}
+
+p {font-family: 'Cardo', serif; font-size: 1.6em; margin: 13% 0% 0% 40%; color: gray; z-index: 300;}
+
+#sub {font-family: 'Cardo', serif; font-size: .65em; margin: 13% 0% 0% 14%; color: gray; z-index: 300;}
+
+a:link {
+    color: gray;
+}
+
+
+a:visited {
+    color: gray;
+}
+
+
+a:hover {
+    color: black;
+}
+
+
+a:active {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}

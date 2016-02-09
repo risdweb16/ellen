@@ -1,0 +1,122 @@
+h1 {font-family: 'Megrim', cursive;
+font-size: 30px;
+color: black;
+float: right;
+position: fixed;
+margin-left: 35px; 
+margin-top: 30px; z-index: 5;}
+
+body {
+  background: blue; 
+  background: -webkit-linear-gradient(left,rgba(67,70,242,0),rgba(67,70,242,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(67,70,242,0),rgba(67,70,242,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(67,70,242,0),rgba(67,70,242,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(67,70,242,0),rgba(67,70,242,1)); /*Standard*/
+}
+
+#div1 {
+	font-family: 'Megrim', cursive;
+font-size: 120px;
+  color: #d10000;
+  z-index: 1;
+
+}
+
+
+#div2 {
+	font-family: 'Megrim', cursive;
+font-size: 120px;
+  color: #ff6622;
+  z-index: 1;
+ 
+
+}
+
+#div3 {
+	font-family: 'Megrim', cursive;
+font-size: 120px;
+  color: #ffda21;
+  z-index: 1;
+
+}
+
+
+#div4 {
+	font-family: 'Megrim', cursive;
+font-size: 120px;
+  color: #33dd00;
+  z-index: 1;
+
+}
+
+
+#div5 {
+	font-family: 'Megrim', cursive;
+font-size: 120px;
+  color: #1133cc;
+  z-index: 1;
+
+}
+
+#div6 {
+	font-family: 'Megrim', cursive;
+font-size: 120px;
+  color: #220066;
+  z-index: 1;
+
+
+}
+
+#div7 {
+	font-family: 'Megrim', cursive;
+font-size: 120px;
+  color: #330044;
+  z-index: 1;
+
+
+}
+
+
+#picbox {
+	margin: 20px auto;
+	width: 100%;
+	border: transparent;
+}
+#boxcard {
+	z-index: 1;
+	margin: 10px 0 0;
+}
+#boxcard div{
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+	margin-left: 67px;
+	padding: 50px;
+	border: 2.4px dotted green; 
+	cursor: pointer;
+
+  background: white;
+	z-index: 2;
+}
+#boxcard div img {
+	display: none;
+	border-radius: 10px;
+	z-index: 3;
+}
+#boxbuttons {
+	text-align: center;
+	margin: 20px;
+	display: block;
+}
+#boxbuttons .button {
+	text-transform: uppercase;
+	background: #EE872A;
+	padding: 5px 10px;
+	margin: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#boxbuttons .button:hover {
+	background: #999;
+}

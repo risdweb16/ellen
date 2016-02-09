@@ -1,0 +1,14 @@
+body {
+  background: blue; 
+  background: -webkit-linear-gradient(left,rgba(118,243,246,0),rgba(118,243,246,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(118,243,246,0),rgba(118,243,246,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(118,243,246,0),rgba(118,243,246,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(118,243,246,0),rgba(118,243,246,1)); /*Standard*/
+}
+
+
+h1 {font-family: "Cardo", serif; font-size: 2em; color: black; margin-left: 10%; margin-top: .5%; position: fixed; opacity: .1; z-index: 10;}
+
+h2 {font-family: 'Cardo', serif; font-weight: bold; font-size: 1em; color: black; margin-left: 27%; margin-top: 6%; z-index: 20;}
+
+p {font-family: 'Cardo', serif; font-size: 1em; margin: 13% 0% 0% 40%; color: gray; z-index: 300;}
